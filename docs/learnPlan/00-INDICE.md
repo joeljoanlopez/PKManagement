@@ -24,15 +24,15 @@ Objetivo doble: **aprender el stack** y **construir la plataforma** tú solo.
 
 ## Reglas de trabajo (aplican a todo el proyecto)
 
-- [ ] Git desde el primer commit. Commits pequeños y descriptivos.
-- [ ] `curl` / Postman antes de construir cualquier UI.
-- [ ] Un concepto nuevo por sesión de estudio.
-- [ ] Escribe notas propias de cada concepto (en Anytype). Si no puedes explicarlo por escrito, no lo dominas.
-- [ ] Credenciales y secretos SIEMPRE en variables de entorno, nunca en el código.
-- [ ] Backend en **arquitectura hexagonal** (cap 04b): dominio aislado de infraestructura.
-- [ ] **Monorepo** con `frontend/` y `backend/` desacoplados; único contrato = la API JSON (cap 01).
-- [ ] Frontend con **Tailwind** (estilos) y **Lucide** (iconos); estructura feature-based (caps 07-08).
-- [ ] **Tests y análisis estático** en ambas apps, corriendo en CI (cap 09b). Testea mientras construyes, no al final.
+- Git desde el primer commit. Commits pequeños y descriptivos.
+- `curl` / Postman antes de construir cualquier UI.
+- Un concepto nuevo por sesión de estudio.
+- Escribe notas propias de cada concepto (en Anytype). Si no puedes explicarlo por escrito, no lo dominas.
+- Credenciales y secretos SIEMPRE en variables de entorno, nunca en el código.
+- Backend en **arquitectura hexagonal** (cap 04b): dominio aislado de infraestructura.
+- **Monorepo** con `../../frontend` y `../../backend` desacoplados; único contrato = la API JSON (cap 01).
+- Frontend con **Tailwind** (estilos) y **Lucide** (iconos); estructura feature-based (caps 07-08).
+- **Tests y análisis estático** en ambas apps, corriendo en CI (cap 09b). Testea mientras construyes, no al final.
 
 ---
 

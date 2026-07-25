@@ -25,7 +25,7 @@ Laravel te ocultaba casi todo esto. Al hacerlo a mano entenderás qué hace un f
 5. ¿Cómo lees la contraseña de la BD desde una variable de entorno inyectada por Docker?
 
 ## Ejercicios
-- [ ] Inicializa Composer en `backend/` y configura autoloading PSR-4 para tu namespace `App\`.
+- [ ] Inicializa Composer en `../../backend` y configura autoloading PSR-4 para tu namespace `App\`.
 - [ ] Crea una función/clase que lea el body JSON de la petición y lo devuelva como array asociativo (maneja el caso de JSON inválido).
 - [ ] Crea un helper para responder JSON con un código de estado dado.
 - [ ] Registra un manejador global de excepciones que convierta cualquier error en una respuesta JSON coherente.

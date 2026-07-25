@@ -1,0 +1,5 @@
+flowchart TD
+    FE[Frontend] --> |Request| BE[Backend]
+    BE --> |Data| FE
+    BE --> |Query| DB[Database]
+    DB --> |Data| BE

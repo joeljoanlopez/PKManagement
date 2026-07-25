@@ -75,7 +75,7 @@ datos persistidos.
 
 ## Contenido del repositorio
 
-Ahora mismo el repo contiene el **plan de aprendizaje y diseño** en [`docs/`](docs/00-INDICE.md). El
+Ahora mismo el repo contiene el **plan de aprendizaje y diseño** en [`docs/`](docs/learnPlan/00-INDICE.md). El
 código de `backend/` y `frontend/` se va añadiendo capítulo a capítulo.
 
 Cada capítulo incluye objetivo, por qué, conceptos a dominar, preguntas de autoevaluación, ejercicios,
@@ -83,23 +83,23 @@ criterio de dominio, checklist y recursos (fuentes primarias, no tutoriales de t
 
 | # | Capítulo | Bloque |
 |---|----------|--------|
-| 01 | [Fundamentos y arquitectura](docs/01-fundamentos-y-arquitectura.md) | Diseño |
-| 02 | [Docker: entorno de desarrollo](docs/02-docker-entorno-dev.md) | Infra |
-| 03 | [PHP nativo: fundamentos](docs/03-php-nativo-fundamentos.md) | Backend |
-| 04 | [MySQL + PDO + modelado de datos](docs/04-mysql-pdo-modelado.md) | Backend |
-| 04b | [Arquitectura hexagonal (puertos y adaptadores)](docs/04b-arquitectura-hexagonal.md) | Diseño |
-| 05 | [API: router y capas](docs/05-api-router-capas.md) | Backend |
-| 06 | [Autenticación](docs/06-autenticacion.md) | Backend |
-| 07 | [React: fundamentos](docs/07-react-fundamentos.md) | Frontend |
-| 08 | [React: consumo de API y estado](docs/08-react-consumo-api.md) | Frontend |
-| 09 | [Construcción de features (parking)](docs/09-features-parking.md) | Producto |
-| 09b | [Testing y calidad de código](docs/09b-testing-y-calidad.md) | Calidad |
-| 10 | [Deploy a servidor](docs/10-deploy.md) | Infra |
-| 11 | [Recursos y glosario](docs/11-recursos-y-glosario.md) | Referencia |
+| 01 | [Fundamentos y arquitectura](docs/learnPlan/01-fundamentos-y-arquitectura.md) | Diseño |
+| 02 | [Docker: entorno de desarrollo](docs/learnPlan/02-docker-entorno-dev.md) | Infra |
+| 03 | [PHP nativo: fundamentos](docs/learnPlan/03-php-nativo-fundamentos.md) | Backend |
+| 04 | [MySQL + PDO + modelado de datos](docs/learnPlan/04-mysql-pdo-modelado.md) | Backend |
+| 04b | [Arquitectura hexagonal (puertos y adaptadores)](docs/learnPlan/04b-arquitectura-hexagonal.md) | Diseño |
+| 05 | [API: router y capas](docs/learnPlan/05-api-router-capas.md) | Backend |
+| 06 | [Autenticación](docs/learnPlan/06-autenticacion.md) | Backend |
+| 07 | [React: fundamentos](docs/learnPlan/07-react-fundamentos.md) | Frontend |
+| 08 | [React: consumo de API y estado](docs/learnPlan/08-react-consumo-api.md) | Frontend |
+| 09 | [Construcción de features (parking)](docs/learnPlan/09-features-parking.md) | Producto |
+| 09b | [Testing y calidad de código](docs/learnPlan/09b-testing-y-calidad.md) | Calidad |
+| 10 | [Deploy a servidor](docs/learnPlan/10-deploy.md) | Infra |
+| 11 | [Recursos y glosario](docs/learnPlan/11-recursos-y-glosario.md) | Referencia |
 
 ## Puesta en marcha
 
-Pendiente hasta que exista el entorno del [cap 02](docs/02-docker-entorno-dev.md). El objetivo es
+Pendiente hasta que exista el entorno del [cap 02](docs/learnPlan/02-docker-entorno-dev.md). El objetivo es
 levantar todo con un solo comando:
 
 ```bash
@@ -117,4 +117,4 @@ de `/api` hacia PHP-FPM.
 
 VPS con Docker: multi-stage build del frontend, código dentro de la imagen (sin bind mounts), HTTPS
 con Let's Encrypt, secretos en `.env` fuera del repo, volumen y dumps periódicos de MySQL,
-`restart: unless-stopped`. Detalle en el [cap 10](docs/10-deploy.md).
+`restart: unless-stopped`. Detalle en el [cap 10](docs/learnPlan/10-deploy.md).

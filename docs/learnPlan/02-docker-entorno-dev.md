@@ -28,7 +28,7 @@ Tienes nociones medias de Docker pero nunca montaste un servicio así. Este ento
 5. ¿Qué pasa si PHP intenta conectar a MySQL antes de que MySQL termine de arrancar? ¿Cómo lo evitas?
 
 ## Ejercicios
-- [ ] Escribe tu `docker-compose.yml` con los 3 servicios (investiga cada clave que uses; no copies a ciegas).
+- [ ] Escribe tu `../../docker-compose.yml` con los 3 servicios (investiga cada clave que uses; no copies a ciegas).
 - [ ] Escribe el `Dockerfile` del backend e instala las extensiones PHP necesarias.
 - [ ] Configura el `nginx.conf` para servir `public/index.php` y pasar `.php` a FPM.
 - [ ] Crea un `index.php` que devuelva `{"ok": true}` y compruébalo en el navegador.
