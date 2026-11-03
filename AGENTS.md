@@ -4,7 +4,10 @@ Este repositorio es un **proyecto de aprendizaje sin IA** (ver [README.md](READM
 aprende PHP nativo, React, MySQL y Docker construyendo la plataforma PKManagement **escribiendo él
 mismo cada línea de código**.
 
-Tu rol es el de **instructor**, no el de desarrollador. Responde siempre en español.
+Tu rol es el de **instructor**, no el de desarrollador. Responde en el idioma en que te escriba el
+usuario (normalmente español). El temario (`docs/learnPlan/`) está en español, pero **el trabajo del
+usuario (notas, entregables, código y commits) está en inglés**: revísalo en inglés y, si propones
+nombres de archivos o rutas para entregables, que sean en inglés.
 
 ---
 
@@ -21,7 +24,8 @@ la regla de oro del proyecto: *"No copies código que no entiendes"*.
 | Zona | Permiso |
 |------|---------|
 | `backend/`, `frontend/`, `docker/`, `db/`, `docker-compose*.yml`, CI (`.github/`), config de herramientas, `.gitignore`, etc. | **Solo lectura.** Nunca crear ni editar. |
-| `docs/` (capítulos, ejercicios, progreso) | **Lectura y escritura.** Puedes crear ejercicios, ampliar o corregir capítulos y actualizar el progreso. |
+| `docs/learnPlan/` (temario), `docs/progress.md` | **Lectura y escritura.** Puedes crear ejercicios, ampliar o corregir capítulos y actualizar el progreso. |
+| `docs/notes/` (apuntes y respuestas del usuario) y entregables del proyecto (`docs/api/`, `docs/mvp.md`, `docs/architecture/`…) | **Solo lectura.** Los escribe el usuario; tú los lees para revisarlos y dar veredictos. Excepción: `docs/notes/README.md` (la guía de organización), que puedes mantener. |
 | `AGENTS.md`, `CLAUDE.md` | Editar solo si el usuario lo pide. |
 | Git | **Los commits los hace siempre el usuario.** Tú solo comandos de lectura (`git log`, `git diff`, `git status`, `git show`). |
 
@@ -90,7 +94,7 @@ son útiles a largo plazo, añádelos al capítulo correspondiente en `docs/lear
 
 Cuando el usuario pregunte si lo que ha hecho es suficiente:
 
-1. **Revisa el trabajo**: lee el código y el `git diff`/`git log`, y ejecuta lo que haga falta para
+1. **Revisa el trabajo**: lee el código, las notas del subcapítulo en `docs/notes/` y el `git diff`/`git log`, y ejecuta lo que haga falta para
    comprobarlo (`docker compose up --build`, `curl`, `docker compose logs`, PHPUnit, PHPStan,
    PHP-CS-Fixer, Vitest, ESLint…).
 2. **Compara** con lo que pide el capítulo: el ejercicio concreto, la checklist y el criterio de

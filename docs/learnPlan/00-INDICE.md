@@ -15,7 +15,7 @@ Objetivo doble: **aprender el stack** y **construir la plataforma** tú solo.
   - **Preguntas de autoevaluación** — si no sabes responder, vuelve a estudiar.
   - **Ejercicios** — los haces tú, sin copiar soluciones.
   - **Criterio de dominio** — cómo sabes que ya lo tienes.
-  - **Checklist** — casillas para trackear en Anytype.
+  - **Checklist** — casillas para trackear el progreso (se marcan en el propio capítulo).
   - **Recursos** — dónde estudiar (fuentes primarias, no tutoriales de terceros).
 
 ## Regla de oro
@@ -27,7 +27,7 @@ Objetivo doble: **aprender el stack** y **construir la plataforma** tú solo.
 - Git desde el primer commit. Commits pequeños y descriptivos.
 - `curl` / Postman antes de construir cualquier UI.
 - Un concepto nuevo por sesión de estudio.
-- Escribe notas propias de cada concepto (en Anytype). Si no puedes explicarlo por escrito, no lo dominas.
+- Escribe notas propias de cada concepto en [`docs/notes/`](../notes/README.md), versionadas en git. Si no puedes explicarlo por escrito, no lo dominas.
 - Credenciales y secretos SIEMPRE en variables de entorno, nunca en el código.
 - Backend en **arquitectura hexagonal** (cap 04b): dominio aislado de infraestructura.
 - **Monorepo** con `../../frontend` y `../../backend` desacoplados; único contrato = la API JSON (cap 01).
@@ -40,7 +40,7 @@ Objetivo doble: **aprender el stack** y **construir la plataforma** tú solo.
 
 | # | Capítulo | Bloque |
 |---|----------|--------|
-| 01 | [Fundamentos y arquitectura](01-fundamentos-y-arquitectura.md) | Diseño |
+| 01 | [Fundamentos y arquitectura](01-fundamentos-y-arquitectura.md) (01a–01e) | Diseño |
 | 02 | [Docker: entorno de desarrollo](02-docker-entorno-dev.md) | Infra |
 | 03 | [PHP nativo: fundamentos](03-php-nativo-fundamentos.md) | Backend |
 | 04 | [MySQL + PDO + modelado de datos](04-mysql-pdo-modelado.md) | Backend |
@@ -57,6 +57,11 @@ Objetivo doble: **aprender el stack** y **construir la plataforma** tú solo.
 ## Tablero de progreso global
 
 - [ ] [Cap 01 — Fundamentos y arquitectura](01-fundamentos-y-arquitectura.md)
+  - [ ] [01a — HTTP](01a-http-cliente-servidor.md)
+  - [ ] [01b — Arquitectura del sistema](01b-arquitectura-sistema.md)
+  - [ ] [01c — Orígenes y CORS](01c-origenes-cors.md)
+  - [ ] [01d — Contrato de la API](01d-diseno-api-rest.md)
+  - [ ] [01e — MVP, monorepo y cierre](01e-mvp-monorepo-cierre.md)
 - [ ] [Cap 02 — Docker dev funcionando](02-docker-entorno-dev.md)
 - [ ] [Cap 03 — PHP nativo](03-php-nativo-fundamentos.md)
 - [ ] [Cap 04 — MySQL + PDO + modelado](04-mysql-pdo-modelado.md)
