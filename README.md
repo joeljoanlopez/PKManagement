@@ -76,7 +76,8 @@ datos persistidos.
 ## Contenido del repositorio
 
 Ahora mismo el repo contiene el **plan de aprendizaje y diseño** en [`docs/`](docs/learnPlan/00-INDICE.md). El
-código de `backend/` y `frontend/` se va añadiendo capítulo a capítulo.
+código de `backend/` y `frontend/` se va añadiendo capítulo a capítulo. Mis apuntes y respuestas a los ejercicios
+están versionados en [`docs/notes/`](docs/notes/README.md) y el progreso en [`docs/progress.md`](docs/progress.md).
 
 Cada capítulo incluye objetivo, por qué, conceptos a dominar, preguntas de autoevaluación, ejercicios,
 criterio de dominio, checklist y recursos (fuentes primarias, no tutoriales de terceros).
